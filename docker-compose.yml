@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    image: platziapp
+    container_name: library_api
+    ports:
+      - "3030:3030"
